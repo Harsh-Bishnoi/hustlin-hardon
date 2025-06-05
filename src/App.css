@@ -1,5 +1,5 @@
-@import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
 
 * {
     font-family: "Noto Serif", serif;
@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: 'modernofb';
-    src: url('/assets/fonts/modernofbcomp-bold.otf'),
+    src: url('../assets/font/modernofbcomp-bold.otf'),
 }
 
 .font-modernofb {
@@ -20,6 +20,6 @@ body {
     background-size: cover;
 }
 
-.rfm-marquee-container{
+.rfm-marquee-container {
     gap: 62px;
 }
