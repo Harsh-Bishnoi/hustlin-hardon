@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: 'modernofb';
-    src: url('../assets/font/modernofbcomp-bold.otf'),
+    src: url('src/assets/font/modernofbcomp-bold.otf'),
 }
 
 .font-modernofb {
