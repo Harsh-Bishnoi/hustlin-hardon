@@ -23,3 +23,18 @@ body {
 .rfm-marquee-container {
     gap: 62px;
 }
+
+.latest-twitter svg {
+    max-width: 18px;
+    max-height: 22px;
+    path {
+        fill: #55ACEE;
+    }
+}
+
+@media (max-width:639.98px) {
+    .swiper-arrow svg {
+        max-width: 18px;
+        max-height: 25px;
+    }
+}

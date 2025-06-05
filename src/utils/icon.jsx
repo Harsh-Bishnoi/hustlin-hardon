@@ -43,3 +43,15 @@ export const OpenSea = () => (
         </defs>
     </svg>
 )
+
+export const LeftArrow = () => (
+    <svg width="23" height="40" viewBox="0 0 23 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M21 2L3 20L21 38" stroke="black" strokeWidth="4" />
+    </svg>
+)
+
+export const RightArrow = () => (
+    <svg width="23" height="40" viewBox="0 0 23 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M2 2L20 20L2 38" stroke="black" strokeWidth="4" />
+    </svg>
+)

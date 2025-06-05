@@ -3,6 +3,7 @@ import BreakingNews from './components/BreakingNews'
 import Header from './components/Header'
 import HeaderSlider from './components/HeaderSlider'
 import Hero from './components/Hero'
+import LatestTweets from './components/LatestTweets'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <Hero />
       <BreakingNews />
+      <LatestTweets />
     </>
   )
 }
