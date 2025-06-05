@@ -13,3 +13,13 @@
 .font-modernofb {
     font-family: 'modernofb';
 }
+
+body {
+    background-image: url(../src/assets/images/png/page-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rfm-marquee-container{
+    gap: 62px;
+}
