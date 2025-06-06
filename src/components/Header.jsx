@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Discord, Instagram, Medium, OpenSea, Twitter } from '../utils/icon';
-import { HEADER_LINK } from '../utils/helper';
+import { HEADER_LINK, SOCIAL_LINK } from '../utils/helper';
 import CommonButton from './common/CommonButton';
 
 const Header = () => {
@@ -40,21 +39,9 @@ const Header = () => {
                             <span className={`block h-1 rounded-3xl bg-black transition-transform duration-300 ease-in-out ${menuOpen ? '-rotate-45 -translate-y-2' : ''}`}></span>
                         </div>
                         <ul className={`list-unstyled flex gap-4.5 justify-center items-center max-md:flex-col max-md:w-full max-md:min-h-screen max-md:fixed max-md:justify-center max-md:bottom-0 max-md:right-[-100%] max-md:top-0 z-3 max-md:items-center max-md:bg-[#f1f1f1] duration-300 ease-in-out transition-all mb-0 ${menuOpen ? '!right-0' : ''}`}>
-                            <li className='hover:scale-110 duration-200 transition-all ease-linear'>
-                                <a onClick={linkClick} href="https://discord.com/" target="_blank" rel="noopener noreferrer"><Discord /></a>
-                            </li>
-                            <li className='hover:scale-110 duration-200 transition-all ease-linear'>
-                                <a onClick={linkClick} href="https://x.com/" target="_blank" rel="noopener noreferrer"><Twitter /></a>
-                            </li>
-                            <li className='hover:scale-110 duration-200 transition-all ease-linear'>
-                                <a onClick={linkClick} href="https://www.instagram.com/accounts/login/?hl=en" target="_blank" rel="noopener noreferrer"><Instagram /></a>
-                            </li>
-                            <li className='hover:scale-110 duration-200 transition-all ease-linear'>
-                                <a onClick={linkClick} href="https://medium.com/" target="_blank" rel="noopener noreferrer"><Medium /></a>
-                            </li>
-                            <li className='hover:scale-110 duration-200 transition-all ease-linear'>
-                                <a onClick={linkClick} href="https://opensea.io/" target="_blank" rel="noopener noreferrer"><OpenSea /></a>
-                            </li>
+                            {SOCIAL_LINK.map((item, index) => (
+                                <li key={index} className='hover:scale-110 duration-200 transition-all ease-linear'><a href={item.link} target='_blank'>{<item.svg />}</a></li>
+                            ))}
                             <li>
                                 <CommonButton btnText={"Connect Wallet"} />
                             </li>

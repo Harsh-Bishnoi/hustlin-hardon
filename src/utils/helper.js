@@ -1,3 +1,5 @@
+import { Discord, Instagram, Medium, OpenSea, Twitter } from "./icon"
+
 export const HEADER_LINK = [
     {
         name: "About us",
@@ -56,5 +58,28 @@ export const TRISTIQUE_DATA = [
     },
     {
         title: "Tincidunt."
+    },
+]
+
+export const SOCIAL_LINK = [
+    {
+        svg: Discord,
+        link: "https://discord.com/"
+    },
+    {
+        svg: Twitter,
+        link: "https://x.com/"
+    },
+    {
+        svg: Instagram,
+        link: "https://www.instagram.com/accounts/login/?hl=en"
+    },
+    {
+        svg: Medium,
+        link: "https://medium.com/"
+    },
+    {
+        svg: OpenSea,
+        link: "https://opensea.io/"
     },
 ]
