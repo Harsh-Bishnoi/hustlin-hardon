@@ -40,7 +40,7 @@ const Header = () => {
                         </div>
                         <ul className={`list-unstyled flex gap-4.5 justify-center items-center max-md:flex-col max-md:w-full max-md:min-h-screen max-md:fixed max-md:justify-center max-md:bottom-0 max-md:right-[-100%] max-md:top-0 z-3 max-md:items-center max-md:bg-[#f1f1f1] duration-300 ease-in-out transition-all mb-0 ${menuOpen ? '!right-0' : ''}`}>
                             {SOCIAL_LINK.map((item, index) => (
-                                <li key={index} className='hover:scale-110 duration-200 transition-all ease-linear'><a href={item.link} target='_blank'>{<item.svg />}</a></li>
+                                <li key={index} onClick={linkClick} className='hover:scale-110 duration-200 transition-all ease-linear'><a href={item.link} target='_blank'>{<item.svg />}</a></li>
                             ))}
                             <li>
                                 <CommonButton btnText={"Connect Wallet"} />

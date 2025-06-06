@@ -5,6 +5,7 @@ import HeaderSlider from './components/HeaderSlider'
 import Hero from './components/Hero'
 import LatestTweets from './components/LatestTweets'
 import Minting from './components/Minting'
+import Team from './components/Team'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <BreakingNews />
       <LatestTweets />
       <Minting />
+      <Team />
     </>
   )
 }

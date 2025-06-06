@@ -1,4 +1,6 @@
 import { Discord, Instagram, Medium, OpenSea, Twitter } from "./icon"
+import teamImgOne from '../assets/images/png/team-img-1.png'
+import teamImgTwo from '../assets/images/png/team-img-2.png'
 
 export const HEADER_LINK = [
     {
@@ -82,4 +84,27 @@ export const SOCIAL_LINK = [
         svg: OpenSea,
         link: "https://opensea.io/"
     },
+]
+
+export const TEAM_DATA = [
+    {
+        img: teamImgOne,
+        heading: "Executive Hardo ",
+        para: "Crypto startup executive, former VC Investor (US$ 1B+ AuM), former MBB Consultant, "
+    },
+    {
+        img: teamImgTwo,
+        heading: "Johnny Banjo ",
+        para: "The Hustlin’ Hardos have arrived to the metaverse! 9,999 Hardos have taken over. Lorem Ipsum is simply dummy text of the printing industry."
+    },
+    {
+        img: teamImgOne,
+        heading: "Executive Hardo ",
+        para: "Crypto startup executive, former VC Investor (US$ 1B+ AuM), former MBB Consultant, "
+    },
+    {
+        img: teamImgTwo,
+        heading: "Johnny Banjo ",
+        para: "The Hustlin’ Hardos have arrived to the metaverse! 9,999 Hardos have taken over. Lorem Ipsum is simply dummy text of the printing industry."
+    }
 ]
