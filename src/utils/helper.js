@@ -5,23 +5,23 @@ import teamImgTwo from '../assets/images/png/team-img-2.png'
 export const HEADER_LINK = [
     {
         name: "About us",
-        link: ""
+        link: "#about"
     },
     {
         name: "Minting",
-        link: ""
+        link: "#minting"
     },
     {
         name: "Roadmap",
-        link: ""
+        link: "#roadmap"
     },
     {
         name: "Team",
-        link: ""
+        link: "#team"
     },
     {
         name: "FAQs",
-        link: ""
+        link: "#faq"
     },
 ]
 
