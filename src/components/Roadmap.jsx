@@ -15,9 +15,9 @@ const Roadmap = () => {
                 <div className="border-[1.5px]"></div>
                 <div className="max-w-[1140px] px-3 xl:px-0 max-[1141px]:max-w-[1023px] max-lg:max-w-[800px] max-[801px]:!max-w-[600px] max-[601px]:!max-w-[375px] max-[1141px]:px-4 mx-auto">
                     <div className="w-full border-x-2 pr-1 border-solid relative pt-[99px] max-md:pt-16 max-sm:pt-10 pl-9 max-lg:pl-24 max-[601px]:!pl-14 max-lg:gap-5 max-lg:pr-4 max-lg:flex max-lg:flex-col border-black">
-                        <img src={lineImg} alt="line-img" className="absolute max-[600px]:!h-[1820px] max-[801px]:h-[1650px]  max-[761px]:!h-[1380px] top-[99px] max-md:top-16 max-sm:top-10 left-1/2 max-lg:left-10 h-[1380px] max-[768px]:!h-[1300px] max-[601px]:!left-[6.5%] max-[601px]:max-h-[unset] lg:-translate-x-1/2" />
+                        <img src={lineImg} alt="line-img" className="absolute max-[601px]:!h-[1820px] max-[801px]:h-[1650px]  max-[761px]:!h-[1380px] top-[99px] max-md:top-16 max-sm:top-10 left-1/2 max-lg:left-10 h-[1380px] max-[768px]:!h-[1300px] max-[601px]:!left-[6.5%] max-[601px]:max-h-[unset] lg:-translate-x-1/2" />
                         <div className="max-w-[495px] max-[1141px]:max-w-[450px] max-lg:max-w-[unset] w-full relative lg:ml-auto" >
-                            <div className="absolute top-0 left-[-20%] max-[1280px]:left-[-17.5%] max-[1140px]:left-[-16%] max-lg:left-[-12.5%] max-[801px]:!left-[-17.5%] max-lg:top-0 size-[59px] max-[601px]:size-9 bg-white border-2 border-solid border-black rounded-full flex justify-center items-center" >
+                            <div className="absolute top-0 left-[-20%] max-[1280px]:left-[-17.5%] max-[1140px]:left-[-16%] max-lg:left-[-12.5%] max-[801px]:!left-[-17.5%] max-[601px]:!left-[-16.5%] max-lg:top-0 size-[59px] max-[601px]:size-9 bg-white border-2 border-solid border-black rounded-full flex justify-center items-center" >
                                 <img src={dotImg} className="max-[601px]:w-5 max-[601px]:h-6" alt="dots" />
                             </div>
                             <p className="text-sm pb-2.5">Phase 1</p>
@@ -26,7 +26,7 @@ const Roadmap = () => {
                         </div>
 
                         <div className="max-w-[495px] max-[1141px]:max-w-[450px] max-lg:max-w-[unset] lg:mt-[-94px] relative w-full" >
-                            <div className="absolute top-0 right-[-13.5%] max-[1280px]:right-[-11.2%] max-[1141px]:right-[-8%] max-lg:left-[-12.5%] max-[801px]:!left-[-17.5%] size-[59px] max-[601px]:size-9 bg-white border-2 border-solid border-black rounded-full flex justify-center items-center">
+                            <div className="absolute top-0 right-[-13.5%] max-[1280px]:right-[-11.2%] max-[1141px]:right-[-8%] max-lg:left-[-12.5%] max-[801px]:!left-[-17.5%] max-[601px]:!left-[-16.5%] size-[59px] max-[601px]:size-9 bg-white border-2 border-solid border-black rounded-full flex justify-center items-center">
                                 <img src={dotImg} className="max-[601px]:w-5 max-[601px]:h-6" alt="dots" />
                             </div>
                             <p className="text-sm pb-2.5">Phase 2</p>
@@ -35,7 +35,7 @@ const Roadmap = () => {
                         </div>
 
                         <div className="max-w-[495px] max-[1141px]:max-w-[450px] max-lg:max-w-[unset] w-full relative lg:ml-auto" >
-                            <div className="absolute top-0 left-[-20%] max-[1280px]:left-[-17.5%] max-[1140px]:left-[-16%] max-lg:left-[-12.5%] max-[801px]:!left-[-17.5%] size-[59px] max-[601px]:size-9 bg-white border-2 border-solid border-black rounded-full flex justify-center items-center">
+                            <div className="absolute top-0 left-[-20%] max-[1280px]:left-[-17.5%] max-[1140px]:left-[-16%] max-lg:left-[-12.5%] max-[801px]:!left-[-17.5%] max-[601px]:!left-[-16.5%] size-[59px] max-[601px]:size-9 bg-white border-2 border-solid border-black rounded-full flex justify-center items-center">
                                 <img src={dotImg} className="max-[601px]:w-5 max-[601px]:h-6" alt="dots" />
                             </div>
                             <p className="text-sm pb-2.5">Phase 3</p>
@@ -44,7 +44,7 @@ const Roadmap = () => {
                         </div>
 
                         <div className="max-w-[495px] max-[1141px]:max-w-[450px] max-lg:max-w-[unset] relative lg:mt-[-62px] w-full" >
-                            <div className="absolute top-0 right-[-13.5%] max-[1280px]:right-[-11.2%] max-[1141px]:right-[-8%] max-lg:left-[-12.5%] max-[801px]:!left-[-17.5%] size-[59px] max-[601px]:size-9 bg-white border-2 border-solid border-black rounded-full flex justify-center items-center">
+                            <div className="absolute top-0 right-[-13.5%] max-[1280px]:right-[-11.2%] max-[1141px]:right-[-8%] max-lg:left-[-12.5%] max-[801px]:!left-[-17.5%] max-[601px]:!left-[-16.5%] size-[59px] max-[601px]:size-9 bg-white border-2 border-solid border-black rounded-full flex justify-center items-center">
                                 <img src={dotImg} className="max-[601px]:w-5 max-[601px]:h-6" alt="dots" />
                             </div>
                             <p className="text-sm pb-2.5">Phase 4</p>
@@ -53,7 +53,7 @@ const Roadmap = () => {
                         </div>
 
                         <div className="max-w-[495px] max-[1141px]:max-w-[450px] max-lg:max-w-[unset] relative w-full lg:ml-auto" >
-                            <div className="absolute top-0 left-[-20%] max-[1280px]:left-[-17.5%] max-[1140px]:left-[-16%] max-lg:left-[-12.5%] max-[801px]:!left-[-17.5%] size-[59px] max-[601px]:size-9 bg-white border-2 border-solid border-black rounded-full flex justify-center items-center" >
+                            <div className="absolute top-0 left-[-20%] max-[1280px]:left-[-17.5%] max-[1140px]:left-[-16%] max-lg:left-[-12.5%] max-[801px]:!left-[-17.5%] max-[601px]:!left-[-16.5%] size-[59px] max-[601px]:size-9 bg-white border-2 border-solid border-black rounded-full flex justify-center items-center" >
                                 <img src={dotImg} className="max-[601px]:w-5 max-[601px]:h-6" alt="dots" />
                             </div>
                             <p className="text-sm pb-2.5">Phase 5</p>
@@ -64,7 +64,7 @@ const Roadmap = () => {
                         </div>
 
                         <div className="max-w-[495px] max-[1141px]:max-w-[450px] max-lg:max-w-[unset] relative mb-[15px] w-full"   >
-                            <div className="absolute top-0 right-[-13.5%] max-[1280px]:right-[-11.2%] max-[1141px]:right-[-8%] max-lg:left-[-12.5%] max-[801px]:!left-[-17.5%] size-[59px] max-[601px]:size-9 bg-white border-2 border-solid border-black rounded-full flex justify-center items-center" >
+                            <div className="absolute top-0 right-[-13.5%] max-[1280px]:right-[-11.2%] max-[1141px]:right-[-8%] max-lg:left-[-12.5%] max-[801px]:!left-[-17.5%] max-[601px]:!left-[-16.5%] size-[59px] max-[601px]:size-9 bg-white border-2 border-solid border-black rounded-full flex justify-center items-center" >
                                 <img src={dotImg} className="max-[601px]:w-5 max-[601px]:h-6" alt="dots" />
                             </div>
                             <p className="text-sm pb-2.5">Phase 6</p>
@@ -76,7 +76,7 @@ const Roadmap = () => {
 
                         <div
                             className="max-w-[495px] max-[1141px]:max-w-[450px] max-lg:max-w-[unset] w-full relative lg:ml-auto" >
-                            <div className="absolute top-0 left-[-20%] max-[1280px]:left-[-17.5%] max-[1140px]:left-[-16%] max-lg:left-[-12.5%] max-[801px]:!left-[-17.5%] size-[59px] max-[601px]:size-9 bg-white border-2 border-solid border-black rounded-full flex justify-center items-center">
+                            <div className="absolute top-0 left-[-20%] max-[1280px]:left-[-17.5%] max-[1140px]:left-[-16%] max-lg:left-[-12.5%] max-[801px]:!left-[-17.5%] max-[601px]:!left-[-16.5%] size-[59px] max-[601px]:size-9 bg-white border-2 border-solid border-black rounded-full flex justify-center items-center">
                                 <img src={dotImg} className="max-[601px]:w-5 max-[601px]:h-6" alt="dots" />
                             </div>
                             <p className="text-sm pb-2.5">Phase 7</p>
@@ -88,7 +88,7 @@ const Roadmap = () => {
 
                         <div className="max-w-[495px] max-[1141px]:max-w-[450px] max-lg:max-w-[unset] lg:mt-[-5px] relative w-full" >
                             <div
-                                className="absolute top-0 right-[-13.5%] max-[1280px]:right-[-11.2%] max-[1141px]:right-[-8%] max-lg:left-[-12.5%] max-[801px]:!left-[-17.5%] size-[59px] max-[601px]:size-9 bg-white border-2 border-solid border-black rounded-full flex justify-center items-center" >
+                                className="absolute top-0 right-[-13.5%] max-[1280px]:right-[-11.2%] max-[1141px]:right-[-8%] max-lg:left-[-12.5%] max-[801px]:!left-[-17.5%] max-[601px]:!left-[-16.5%] size-[59px] max-[601px]:size-9 bg-white border-2 border-solid border-black rounded-full flex justify-center items-center" >
                                 <img src={dotImg} className="max-[601px]:w-5 max-[601px]:h-6" alt="dots" />
                             </div>
                             <p className="text-sm pb-2.5">Phase 8</p>
