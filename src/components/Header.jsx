@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Discord, Instagram, Medium, OpenSea, Twitter } from '../utils/icon';
 import { HEADER_LINK } from '../utils/helper';
+import CommonButton from './common/CommonButton';
 
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -55,9 +56,7 @@ const Header = () => {
                                 <a onClick={linkClick} href="https://opensea.io/" target="_blank" rel="noopener noreferrer"><OpenSea /></a>
                             </li>
                             <li>
-                                <button className="px-3.5 py-3 border-2 bg-[#FFD600] cursor-pointer border-black font-semibold text-sm leading-[108%] uppercase text-black transition-all duration-600 ease-in-out hover:text-[#FFD600] hover:[box-shadow:inset_0_-100px_0_0_black]">
-                                    Connect Wallet
-                                </button>
+                                <CommonButton btnText={"Connect Wallet"} />
                             </li>
                         </ul>
                     </div>

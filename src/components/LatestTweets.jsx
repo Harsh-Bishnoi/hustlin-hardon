@@ -13,8 +13,8 @@ const LatestTweets = () => {
                 <div className="flex items-center justify-between">
                     <Heading headingClass={"font-light max-sm:!tracking-[-1px] uppercase"} headingText={"Latest Tweets"} />
                     <div className="flex items-center gap-4 sm:gap-[55px]">
-                        <p className='swiper-arrow prev-btn'><LeftArrow /></p>
-                        <p className='swiper-arrow next-btn'><RightArrow /></p>
+                        <p className='swiper-arrow prev-btn cursor-pointer'><LeftArrow /></p>
+                        <p className='swiper-arrow next-btn cursor-pointer'><RightArrow /></p>
                     </div>
                 </div>
             </div>

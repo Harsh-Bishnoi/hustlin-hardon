@@ -43,3 +43,18 @@ export const LATEST_TWEETS_DATA = [
         para: "Tortor dolor ultrices mauris aliquam feugiat amet ultrices facilisi. Venenatis."
     },
 ]
+
+export const TRISTIQUE_DATA = [
+    {
+        title: "Etiam eget"
+    },
+    {
+        title: "Tristique."
+    },
+    {
+        title: "Aliquet ac."
+    },
+    {
+        title: "Tincidunt."
+    },
+]
