@@ -108,3 +108,27 @@ export const TEAM_DATA = [
         para: "The Hustlin’ Hardos have arrived to the metaverse! 9,999 Hardos have taken over. Lorem Ipsum is simply dummy text of the printing industry."
     }
 ]
+
+export const FAQ_DATA = [ 
+    {
+        heading:"What is an NFT?"
+    },
+    {
+        heading:"How do I get an NFT?"
+    },
+    {
+        heading:"How much is a Hustlin' Hardo NFT?"
+    },
+    {
+        heading:"Where can I mint a Hustlin' Hardos NFT?"
+    },
+    {
+        heading:"How do I mint a Hustlin' Hardo NFT?"
+    },
+    {
+        heading:"How many Hustlin' Hardos NFTs will there be?"
+    },
+    {
+        heading:"What is the utility and functionality of a Hustlin' Hardo NFT?"
+    }
+]

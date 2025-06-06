@@ -1,5 +1,6 @@
 import './App.css'
 import BreakingNews from './components/BreakingNews'
+import Faq from './components/Faq'
 import Header from './components/Header'
 import HeaderSlider from './components/HeaderSlider'
 import Hero from './components/Hero'
@@ -18,6 +19,7 @@ function App() {
       <LatestTweets />
       <Minting />
       <Team />
+      <Faq />
     </>
   )
 }
