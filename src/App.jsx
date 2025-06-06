@@ -1,4 +1,5 @@
 import './App.css'
+import BackToTop from './components/BackToTop'
 import BreakingNews from './components/BreakingNews'
 import Faq from './components/Faq'
 import Footer from './components/Footer'
@@ -24,6 +25,7 @@ function App() {
       <Team />
       <Faq />
       <Footer />
+      <BackToTop />
     </>
   )
 }
