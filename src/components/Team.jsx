@@ -9,7 +9,7 @@ import { TEAM_DATA } from '../utils/helper';
 const Team = () => {
     return (
         <>
-            <div className="max-w-[1140px] px-3 mx-auto py-10 sm:py-14 md:py-20 lg:py-[88.5px]">
+            <div className="max-w-[1140px] px-3 xl:px-0 mx-auto py-10 sm:py-14 md:py-20 lg:py-[88.5px]">
                 <div className="flex items-center justify-between">
                     <Heading headingClass={"max-sm:!tracking-[-1px]"} headingText={"Team"} />
                     <div className="flex items-center gap-4 sm:gap-[55px]">
@@ -19,7 +19,7 @@ const Team = () => {
                 </div>
             </div>
             <div className="border-[1.5px] w-full"></div>
-            <div className="max-w-[1140px] px-3 mx-auto">
+            <div className="max-w-[1140px] px-3 xl:px-0.5 mx-auto">
                 <div className="flex">
                     <div className="border"></div>
                     <Swiper

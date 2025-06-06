@@ -11,7 +11,7 @@ const Minting = () => {
     const decrement = () => setCount(count - 1);
     return (
         <>
-            <div className="max-w-[1140px] px-3 mx-auto py-10 sm:py-14 md:py-20 lg:py-[88.5px]">
+            <div className="max-w-[1140px] px-3 xl:px-0 mx-auto py-10 sm:py-14 md:py-20 lg:py-[88.5px]">
                 <Heading headingText={"Minting"} />
             </div>
             <div className="border-y-2 border-solid max-xl:px-3 border-black">
