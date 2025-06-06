@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'modernofb';
-    src: url('src/assets/font/modernofbcomp-bold.otf'),
+    src: url('public/font/modernofbcomp-bold.otf'),
 }
 
 .font-modernofb {
@@ -28,6 +28,7 @@ body {
 .latest-twitter svg {
     max-width: 18px;
     max-height: 22px;
+
     path {
         fill: #55ACEE;
     }
