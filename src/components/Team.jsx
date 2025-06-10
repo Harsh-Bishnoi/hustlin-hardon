@@ -42,7 +42,7 @@ const Team = () => {
                             }} >
                             {TEAM_DATA.map((data, index) => (
                                 <SwiperSlide>
-                                    <div key={index} className="py-12 sm:py-[53.5px] md:max-w-[570px] h-full px-7 sm:px-14 md:px-7 lg:px-[81.5px] border-r-2 bg-[url('src/assets/images/png/team-swiper-bg-img.png')] bg-cover bg-no-repeat">
+                                    <div key={index} className="py-12 sm:py-[53.5px] md:max-w-[570px] h-full px-7 sm:px-14 md:px-7 lg:px-[81.5px] border-r-2 bg-img">
                                         <img className='flex justify-center mx-auto' src={data.img} alt="img" />
                                         <h3 className='pt-4 text-center font-extrabold text-3xl sm:text-4xl leading-[100%] text-[#70675F]'>{data.heading}</h3>
                                         <p className='pt-4 text-center leading-[130%] text-black'>{data.para}</p>

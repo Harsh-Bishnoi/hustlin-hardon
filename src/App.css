@@ -34,6 +34,12 @@ body {
     }
 }
 
+.bg-img {
+    background-image: url("./assets/images/png/team-swiper-bg-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 @media (max-width:639.98px) {
     .swiper-arrow svg {
         max-width: 18px;
