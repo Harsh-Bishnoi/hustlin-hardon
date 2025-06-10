@@ -21,7 +21,7 @@ const LatestTweets = () => {
             <div className="border-[1.5px] w-full"></div>
             <div className="max-w-[1140px] px-3 xl:px-0.5 mx-auto">
                 <div className="flex">
-                    <div className="border"></div>
+                    <div className="border-l-2"></div>
                     <Swiper
                         navigation={{
                             nextEl: '.next-btn',
@@ -47,7 +47,7 @@ const LatestTweets = () => {
                         }} >
                         {LATEST_TWEETS_DATA.map((data, index) => (
                             <SwiperSlide>
-                                <div key={index} className="py-[47px] px-[25px] border-r-2 w-full h-full max-w-[381px]">
+                                <div key={index} className="py-[47px] px-[25px] border-r-2 w-full h-full lg:max-w-[381px]">
                                     <h3 className='text-4xl font-semibold leading-[111%] text-black'>{data.heading}</h3>
                                     <div className="flex items-center pt-[13px] gap-[11px]">
                                         <a className='latest-twitter' href="https://x.com/" target='blank'><Twitter /></a>

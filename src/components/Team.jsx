@@ -22,7 +22,7 @@ const Team = () => {
                 <div className="border-[1.5px] w-full"></div>
                 <div className="max-w-[1140px] px-3 xl:px-0.5 mx-auto">
                     <div className="flex">
-                        <div className="border"></div>
+                        <div className="border-l-2"></div>
                         <Swiper
                             navigation={{
                                 nextEl: '.team-next-btn',
