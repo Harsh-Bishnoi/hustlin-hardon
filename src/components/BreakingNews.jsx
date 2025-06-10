@@ -17,7 +17,7 @@ const BreakingNews = () => {
                                 <div className='lg:max-w-[475px]'>
                                     <h4 className='leading-[100%] text-black '>March 1, 2022 by Editor Hardo</h4>
                                     <Description descriptionClass={"text-lg leading-[130%] py-4 text-black"} descriptionText="Hustlin' Hardos is a collection of 9,999 NFT characters on the Ethereum Blockchain, inspired by the business/ finance world, hustler culture and web3 aesthetics. Each Hustlin' Hardo is a completely original and unique combination of hundreds of potential attributes such as luxury watches, clothing, or accessories - all with provable degrees of rarity. The collection features truly unique and powerful artwork, while offering its holders first-of-its-kind utility. Your Huslin’ Hardo NFT is your gateway to The Boardroom, one of the most rewarding and engaging online communities" />
-                                    <a className='underline leading-[100%] ' href="">Read More...</a>
+                                    <a className='underline leading-[100%] hover:text-[#55ACEE]' href="">Read More...</a>
                                 </div>
                             </div>
                             <div className=" w-full  lg:w-6/12 mx-auto px-3">

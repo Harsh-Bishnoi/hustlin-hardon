@@ -11,7 +11,7 @@ const LatestTweets = () => {
         <>
             <div className="max-w-[1140px] px-3 xl:px-0 mx-auto py-10 sm:py-14 md:py-20 lg:py-[89.5px]">
                 <div className="flex items-center justify-between">
-                    <Heading headingClass={"font-light max-sm:!tracking-[-1px] uppercase ![text-shadow:2px_2px_4px_#00000040]"} headingText={"Latest Tweets"} />
+                    <Heading headingClass={"max-sm:!tracking-[-1px] uppercase ![text-shadow:2px_2px_4px_#00000040]"} headingText={"Latest Tweets"} />
                     <div className="flex items-center gap-4 sm:gap-[55px]">
                         <p className='swiper-arrow prev-btn cursor-pointer'><LeftArrow /></p>
                         <p className='swiper-arrow next-btn cursor-pointer'><RightArrow /></p>
@@ -47,14 +47,14 @@ const LatestTweets = () => {
                         }} >
                         {LATEST_TWEETS_DATA.map((data, index) => (
                             <SwiperSlide>
-                                <div key={index} className="py-[47px] px-[26.5px] border-r-2 w-full h-full max-w-[381px]">
+                                <div key={index} className="py-[47px] px-[25px] border-r-2 w-full h-full max-w-[381px]">
                                     <h3 className='text-4xl font-semibold leading-[111%] text-black'>{data.heading}</h3>
                                     <div className="flex items-center pt-[13px] gap-[11px]">
                                         <a className='latest-twitter' href="https://x.com/" target='blank'><Twitter /></a>
                                         <p className='text-sm leading-[100%] text-black'>{data.date}</p>
                                     </div>
                                     <p className='leading-[100%] pt-[13px] pb-[15px]'>{data.para}</p>
-                                    <a className='text-sm leading-[100%] underline' href="">Read More...</a>
+                                    <a className='text-sm leading-[100%] underline hover:text-[#55ACEE]' href="">Read More...</a>
                                 </div>
                             </SwiperSlide>
                         ))}

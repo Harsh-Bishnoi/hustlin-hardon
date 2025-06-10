@@ -30,10 +30,7 @@ const Header = () => {
                         <a href="/" className="font-modernofb text-2xl leading-[100%] text-black">
                             Hustlin' Hardos
                         </a>
-                        <div
-                            onClick={toggleNavbar}
-                            className="z-50 md:hidden flex flex-col justify-between w-6 h-5 cursor-pointer"
-                        >
+                        <div onClick={toggleNavbar} className="z-50 md:hidden flex flex-col justify-between w-6 h-5 cursor-pointer" >
                             <span className={`block h-1 rounded-3xl bg-black transition-transform duration-300 ease-in-out ${menuOpen ? 'rotate-45 translate-y-2' : ''}`}></span>
                             <span className={`block h-1 rounded-3xl bg-black transition-transform duration-300 ease-in-out ${menuOpen ? 'opacity-0' : ''}`}></span>
                             <span className={`block h-1 rounded-3xl bg-black transition-transform duration-300 ease-in-out ${menuOpen ? '-rotate-45 -translate-y-2' : ''}`}></span>
