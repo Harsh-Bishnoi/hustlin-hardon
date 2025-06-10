@@ -44,7 +44,7 @@ const Minting = () => {
                 <div className="max-w-[832px] px-3 py-[21px] justify-between gap-5 sm:gap-7 lg:gap-10 items-center flex flex-wrap mx-auto">
                     {TRISTIQUE_DATA.map((item, index) => (
                         <div key={index} className="flex flex-col gap-3">
-                            <p className="text-2xl leading-[111%] max-lg:text-xl max-md:text-lg max-sm:text-sm">{item.title}</p>
+                            <p className="text-2xl leading-[111%] max-lg:text-xl max-md:text-lg max-sm:text-sm">{item}</p>
                             <p className="text-4xl max-lg:text-3xl max-md:text-2xl max-sm:text-sm font-semibold leading-[111%]">42</p>
                         </div>
                     ))}

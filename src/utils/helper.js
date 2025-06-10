@@ -49,18 +49,10 @@ export const LATEST_TWEETS_DATA = [
 ]
 
 export const TRISTIQUE_DATA = [
-    {
-        title: "Etiam eget"
-    },
-    {
-        title: "Tristique."
-    },
-    {
-        title: "Aliquet ac."
-    },
-    {
-        title: "Tincidunt."
-    },
+    "Etiam eget",
+    "Tristique.",
+    "Aliquet ac.",
+    "Tincidunt."
 ]
 
 export const SOCIAL_LINK = [
@@ -110,25 +102,11 @@ export const TEAM_DATA = [
 ]
 
 export const FAQ_DATA = [
-    {
-        heading: "What is an NFT?"
-    },
-    {
-        heading: "How do I get an NFT?"
-    },
-    {
-        heading: "How much is a Hustlin' Hardo NFT?"
-    },
-    {
-        heading: "Where can I mint a Hustlin' Hardos NFT?"
-    },
-    {
-        heading: "How do I mint a Hustlin' Hardo NFT?"
-    },
-    {
-        heading: "How many Hustlin' Hardos NFTs will there be?"
-    },
-    {
-        heading: "What is the utility and functionality of a Hustlin' Hardo NFT?"
-    }
+    "What is an NFT?",
+    "How do I get an NFT?",
+    "How much is a Hustlin' Hardo NFT?",
+    "Where can I mint a Hustlin' Hardos NFT?",
+    "How do I mint a Hustlin' Hardo NFT?",
+    "How many Hustlin' Hardos NFTs will there be?",
+    "What is the utility and functionality of a Hustlin' Hardo NFT?",
 ]

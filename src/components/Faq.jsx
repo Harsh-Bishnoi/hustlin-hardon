@@ -25,7 +25,7 @@ const Faq = () => {
                                 <div key={index} className={`border-b-2 border-black p-4 md:pl-[30px] md:pr-[41px] md:py-8${openIndex === index ? 'md:pb-[24px]' : ''}`}>
                                     <div className="flex items-baseline gap-3.5">
                                         <button onClick={() => toggleAccordion(index)} className="w-full outline-0 cursor-pointer flex justify-between items-center text-start font-semibold text-black text-2xl max-md:text-xl max-sm:text-lg" >
-                                            <span>{item.heading}</span>
+                                            <span>{item}</span>
                                         </button>
                                         <span className={`min-w-2 min-h-0.5 sm:min-w-0.5 sm:min-h-3 bg-black relative after:absolute after:w-full after:h-full after:bg-black after:rotate-90 after:transition-all after:duration-400 items-baseline ${openIndex === index ? 'after:hidden sm:rotate-90' : ''}`}></span>
                                     </div>
