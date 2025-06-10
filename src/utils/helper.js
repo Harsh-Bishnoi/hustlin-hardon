@@ -2,7 +2,7 @@ import { Discord, Instagram, Medium, OpenSea, Twitter } from "./icons"
 import teamImgOne from '../assets/images/png/team-img-1.png'
 import teamImgTwo from '../assets/images/png/team-img-2.png'
 
-export const HEADER_LINK = [
+export const HEADER_LIST = [
     {
         name: "About us",
         link: "#about"
@@ -65,23 +65,23 @@ export const TRISTIQUE_DATA = [
 
 export const SOCIAL_LINK = [
     {
-        svg: Discord,
+        icon: Discord,
         link: "https://discord.com/"
     },
     {
-        svg: Twitter,
+        icon: Twitter,
         link: "https://x.com/"
     },
     {
-        svg: Instagram,
+        icon: Instagram,
         link: "https://www.instagram.com/accounts/login/?hl=en"
     },
     {
-        svg: Medium,
+        icon: Medium,
         link: "https://medium.com/"
     },
     {
-        svg: OpenSea,
+        icon: OpenSea,
         link: "https://opensea.io/"
     },
 ]
@@ -109,26 +109,26 @@ export const TEAM_DATA = [
     }
 ]
 
-export const FAQ_DATA = [ 
+export const FAQ_DATA = [
     {
-        heading:"What is an NFT?"
+        heading: "What is an NFT?"
     },
     {
-        heading:"How do I get an NFT?"
+        heading: "How do I get an NFT?"
     },
     {
-        heading:"How much is a Hustlin' Hardo NFT?"
+        heading: "How much is a Hustlin' Hardo NFT?"
     },
     {
-        heading:"Where can I mint a Hustlin' Hardos NFT?"
+        heading: "Where can I mint a Hustlin' Hardos NFT?"
     },
     {
-        heading:"How do I mint a Hustlin' Hardo NFT?"
+        heading: "How do I mint a Hustlin' Hardo NFT?"
     },
     {
-        heading:"How many Hustlin' Hardos NFTs will there be?"
+        heading: "How many Hustlin' Hardos NFTs will there be?"
     },
     {
-        heading:"What is the utility and functionality of a Hustlin' Hardo NFT?"
+        heading: "What is the utility and functionality of a Hustlin' Hardo NFT?"
     }
 ]

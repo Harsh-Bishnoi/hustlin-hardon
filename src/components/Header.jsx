@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { HEADER_LINK, SOCIAL_LINK } from '../utils/helper';
+import { HEADER_LIST, SOCIAL_LINK } from '../utils/helper';
 import CommonButton from './common/CommonButton';
 
 const Header = () => {
@@ -40,7 +40,7 @@ const Header = () => {
                         </div>
                         <ul className={`list-unstyled flex gap-4.5 justify-center items-center max-md:flex-col max-md:w-full max-md:min-h-screen max-md:fixed max-md:justify-center max-md:bottom-0 max-md:right-[-100%] max-md:top-0 z-3 max-md:items-center max-md:bg-[#f1f1f1] duration-300 ease-in-out transition-all mb-0 ${menuOpen ? '!right-0' : ''}`}>
                             {SOCIAL_LINK.map((item, index) => (
-                                <li key={index} onClick={linkClick} className='hover:scale-110 duration-200 transition-all ease-linear'><a href={item.link} target='_blank'>{<item.svg />}</a></li>
+                                <li key={index} onClick={linkClick} className='hover:scale-110 duration-200 transition-all ease-linear'><a href={item.link} target='_blank'>{<item.icon />}</a></li>
                             ))}
                             <li>
                                 <CommonButton btnText={"Connect Wallet"} />
@@ -51,7 +51,7 @@ const Header = () => {
             </nav>
             <div className="w-full mt-[15px] border-t-2 border-b-2 border-solid border-black">
                 <div className="max-w-[561px] justify-center items-center flex mx-auto">
-                    {HEADER_LINK.map((item, index) => (
+                    {HEADER_LIST.map((item, index) => (
                         <a key={index} className={`px-6 uppercase hover:bg-black hover:text-white transition-all duration-300 whitespace-nowrap max-md:text-sm max-sm:text-xs border-solid py-[7px] max-sm:py-1 max-sm:px-2 border-black ${index === 0 ? 'border-x-2' : 'border-r-2'}`}
                             href={item.link}> {item.name}
                         </a>
