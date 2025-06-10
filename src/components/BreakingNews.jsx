@@ -8,7 +8,7 @@ const BreakingNews = () => {
             <div id='about'>
                 <div className="flex justify-center items-center pt-9 sm:pt-[67px] flex-col">
                     <div className="max-w-[1140px] px-3 xl:px-0">
-                        <Heading headingClass={"xl:!text-7xl md:!text-6xl sm:!text-4xl !text-2xl !leading-[140%] pb-9 sm:pb-[67px]"} headingText={'“BREAKING NEWS: Hustlin Hardos set to launch the most anticipated NFT project of 2022"'} />
+                        <Heading headingClass={"xl:!text-7xl md:!text-6xl sm:!text-4xl !text-2xl !leading-[140%] pb-9 sm:pb-[67px] ![text-shadow:2px_2px_4px_#00000040]"} headingText={'“BREAKING NEWS: Hustlin Hardos set to launch the most anticipated NFT project of 2022"'} />
                     </div>
                     <div className="border w-full"></div>
                     <div className="max-w-[1140px] lg:border-l-[2.5px] px-3 xl:px-7.5">

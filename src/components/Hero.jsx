@@ -5,7 +5,9 @@ const Hero = () => {
         <>
             <div className="flex items-center justify-center flex-col">
                 <div className="max-w-[1140px]">
-                    <h1 className='font-modernofb xl:text-[157px] md:text-8xl sm:text-6xl whitespace-nowrap py-5 max-lg:py-4 max-md:py-3 max-sm:py-2 text-center text-5xl leading-[100%] text-black'>THE HUSTLIN’ HARDOS.</h1>
+                    <h1 className='font-modernofb xl:text-[157px] md:text-8xl sm:text-6xl whitespace-nowrap py-5 max-lg:py-4 max-md:py-3 max-sm:py-2 text-center text-5xl leading-[100%] text-black [text-shadow:2px_2px_4px_#00000040]'>
+                        THE HUSTLIN’ HARDOS.
+                    </h1>
                 </div>
                 <div className="border-[1.5px] w-full"></div>
                 <img className='w-full max-h-[476px] pointer-events-none' src={heroImg} alt="" />

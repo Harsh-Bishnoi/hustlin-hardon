@@ -11,7 +11,7 @@ const LatestTweets = () => {
         <>
             <div className="max-w-[1140px] px-3 xl:px-0 mx-auto py-10 sm:py-14 md:py-20 lg:py-[89.5px]">
                 <div className="flex items-center justify-between">
-                    <Heading headingClass={"font-light max-sm:!tracking-[-1px] uppercase"} headingText={"Latest Tweets"} />
+                    <Heading headingClass={"font-light max-sm:!tracking-[-1px] uppercase ![text-shadow:2px_2px_4px_#00000040]"} headingText={"Latest Tweets"} />
                     <div className="flex items-center gap-4 sm:gap-[55px]">
                         <p className='swiper-arrow prev-btn cursor-pointer'><LeftArrow /></p>
                         <p className='swiper-arrow next-btn cursor-pointer'><RightArrow /></p>

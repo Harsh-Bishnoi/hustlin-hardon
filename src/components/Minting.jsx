@@ -12,7 +12,7 @@ const Minting = () => {
     return (
         <>
             <div id='minting'>
-                <div className="max-w-[1140px] px-3 xl:px-0 mx-auto py-10 sm:py-14 md:py-20 lg:py-[88.5px]">
+                <div className="max-w-[1140px] px-3 xl:px-0 mx-auto py-10 sm:py-14 md:py-20 lg:py-[88.5px] ![text-shadow:2px_2px_4px_#00000040]">
                     <Heading headingText={"Minting"} />
                 </div>
                 <div className="border-y-2 border-solid max-xl:px-3 border-black">
