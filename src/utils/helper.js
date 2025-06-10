@@ -4,23 +4,23 @@ import teamImgTwo from '../assets/images/png/team-img-2.png'
 
 export const HEADER_LIST = [
     {
-        name: "About us",
+        title: "About us",
         link: "#about"
     },
     {
-        name: "Minting",
+        title: "Minting",
         link: "#minting"
     },
     {
-        name: "Roadmap",
+        title: "Roadmap",
         link: "#roadmap"
     },
     {
-        name: "Team",
+        title: "Team",
         link: "#team"
     },
     {
-        name: "FAQs",
+        title: "FAQs",
         link: "#faq"
     },
 ]
