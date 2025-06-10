@@ -18,7 +18,7 @@ const Faq = () => {
                         <Heading headingClass="max-sm:!tracking-[-1px] ![text-shadow:2px_2px_4px_#00000040]" headingText="Faqs" />
                     </div>
                 </div>
-                <div className="border-y-2 max-xl:px-4 border-solid border-black">
+                <div className="border-y-2 max-xl:px-3 border-solid border-black">
                     <div className="max-w-[1140px] mx-auto container border-x-2 border-solid border-black">
                         <div className="w-full">
                             {FAQ_DATA.map((item, index) => (

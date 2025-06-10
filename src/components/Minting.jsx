@@ -3,7 +3,7 @@ import Heading from './common/Heading'
 import Description from './common/Description'
 import newsMan from '../assets/images/png/news-man-img.png'
 import { TRISTIQUE_DATA } from '../utils/helper'
-import Button from './common/Button'
+import CustomButton from './common/CustomButton'
 
 const Minting = () => {
     const [count, setCount] = useState(100)
@@ -33,7 +33,7 @@ const Minting = () => {
                                         </button>
                                     </div>
                                 </div>
-                                <Button btnClass={"mt-[35px]"} btnText={"Mint Now"} />
+                                <CustomButton btnClass={"mt-[35px]"} btnText={"Mint Now"} />
                                 <p className="text-lg font-semibold leading-[100%] text-[#00A106] pt-9"> Time Left </p>
                                 <p className="text-4xl font-semibold leading-[100%] pt-2 text-[#FF0000]">40:15:12:10</p>
                             </div>

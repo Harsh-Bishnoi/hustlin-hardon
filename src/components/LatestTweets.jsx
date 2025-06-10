@@ -54,7 +54,7 @@ const LatestTweets = () => {
                                         <p className='text-sm leading-[100%] text-black'>{data.date}</p>
                                     </div>
                                     <p className='leading-[100%] pt-[13px] pb-[15px]'>{data.para}</p>
-                                    <a className='text-sm leading-[100%] underline hover:text-[#55ACEE]' href="">Read More...</a>
+                                    <a className='text-sm leading-[100%] underline hover:text-[#55ACEE] transition-all duration-200 ease-linear' href="">Read More...</a>
                                 </div>
                             </SwiperSlide>
                         ))}
