@@ -16,7 +16,7 @@
 }
 
 body {
-    background-image: url(../src/assets/images/png/page-bg-img.png);
+    background-image: url("../src/assets/images/png/page-bg-img.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
