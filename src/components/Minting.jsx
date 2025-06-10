@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import Heading from './common/Heading'
 import Description from './common/Description'
 import newsMan from '../assets/images/png/news-man-img.png'
-import CommonButton from './common/CommonButton'
 import { TRISTIQUE_DATA } from '../utils/helper'
+import Button from './common/Button'
 
 const Minting = () => {
     const [count, setCount] = useState(100)
@@ -33,7 +33,7 @@ const Minting = () => {
                                         </button>
                                     </div>
                                 </div>
-                                <CommonButton btnClass={"mt-[35px]"} btnText={"Mint Now"} />
+                                <Button btnClass={"mt-[35px]"} btnText={"Mint Now"} />
                                 <p className="text-lg font-semibold leading-[100%] text-[#00A106] pt-9"> Time Left </p>
                                 <p className="text-4xl font-semibold leading-[100%] pt-2 text-[#FF0000]">40:15:12:10</p>
                             </div>

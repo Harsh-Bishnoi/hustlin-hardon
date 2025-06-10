@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { HEADER_LIST, SOCIAL_LINK } from '../utils/helper';
-import CommonButton from './common/CommonButton';
+import Button from './common/Button';
 
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -43,7 +43,7 @@ const Header = () => {
                                 <li key={index} onClick={linkClick} className='hover:scale-110 duration-200 transition-all ease-linear'><a href={item.link} target='_blank'>{<item.icon />}</a></li>
                             ))}
                             <li>
-                                <CommonButton btnText={"Connect Wallet"} />
+                                <Button btnText={"Connect Wallet"} />
                             </li>
                         </ul>
                     </div>
