@@ -10,7 +10,7 @@ const Hero = () => {
                     </h1>
                 </div>
                 <div className="border-[1.5px] w-full"></div>
-                <img className='w-full max-h-[476px] pointer-events-none' src={heroImg} alt="" />
+                <img className='w-full object-cover h-full max-h-[476px] pointer-events-none' src={heroImg} alt="" />
                 <div className="border-[1.5px] w-full"></div>
             </div>
         </>

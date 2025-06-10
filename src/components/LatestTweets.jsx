@@ -1,6 +1,6 @@
 import React from 'react'
 import Heading from './common/Heading'
-import { LeftArrow, RightArrow, Twitter } from '../utils/icon'
+import { LeftArrow, RightArrow, Twitter } from '../utils/icons'
 import { LATEST_TWEETS_DATA } from '../utils/helper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';

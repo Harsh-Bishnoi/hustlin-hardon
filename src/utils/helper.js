@@ -1,4 +1,4 @@
-import { Discord, Instagram, Medium, OpenSea, Twitter } from "./icon"
+import { Discord, Instagram, Medium, OpenSea, Twitter } from "./icons"
 import teamImgOne from '../assets/images/png/team-img-1.png'
 import teamImgTwo from '../assets/images/png/team-img-2.png'
 

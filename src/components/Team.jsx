@@ -1,6 +1,6 @@
 import React from 'react'
 import Heading from './common/Heading'
-import { LeftArrow, RightArrow } from '../utils/icon'
+import { LeftArrow, RightArrow } from '../utils/icons'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { Navigation } from 'swiper/modules';
