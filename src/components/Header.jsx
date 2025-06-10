@@ -43,7 +43,7 @@ const Header = () => {
                                 <li key={index} onClick={linkClick} className='hover:scale-110 duration-200 transition-all ease-linear'><a href={item.link} target='_blank'>{<item.icon />}</a></li>
                             ))}
                             <li>
-                                <Button btnText={"Connect Wallet"} />
+                                <Button onClick={linkClick} btnText={"Connect Wallet"} />
                             </li>
                         </ul>
                     </div>
