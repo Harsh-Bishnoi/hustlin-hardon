@@ -1,6 +1,6 @@
 import './App.css'
-import BackToTop from './components/BackToTop'
 import BreakingNews from './components/BreakingNews'
+import BackToTop from './components/common/BackToTop'
 import Faq from './components/Faq'
 import Footer from './components/Footer'
 import Header from './components/Header'
