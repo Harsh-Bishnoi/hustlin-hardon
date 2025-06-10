@@ -1,6 +1,6 @@
 import React from 'react'
 import Marquee from "react-fast-marquee";
-const HeaderSlider = () => {
+const TopSlider = () => {
     return (
         <>
             <div className="bg-black h-13 py-[13.5px]">
@@ -79,4 +79,4 @@ const HeaderSlider = () => {
     )
 }
 
-export default HeaderSlider
+export default TopSlider
