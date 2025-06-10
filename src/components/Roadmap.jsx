@@ -13,7 +13,7 @@ const Roadmap = () => {
                     </div>
                 </div>
                 <div className="border-[1.5px]"></div>
-                <div className="max-w-[1140px] px-3 xl:px-0 max-[1141px]:max-w-[1023px] max-lg:max-w-[800px] max-[801px]:!max-w-[600px] max-[601px]:!max-w-[375px] max-[1141px]:px-4 mx-auto">
+                <div className="max-w-[1140px] px-3 xl:px-0 max-[1141px]:max-w-[1023px] max-lg:max-w-[800px] max-[801px]:!max-w-[600px] max-[601px]:!max-w-[375px] max-[1141px]:px-3 mx-auto">
                     <div className="w-full border-x-2 pr-1 border-solid relative pt-[99px] max-md:pt-16 max-sm:pt-10 pl-9 max-lg:pl-24 max-[601px]:!pl-14 max-lg:gap-5 max-lg:pr-4 max-lg:flex max-lg:flex-col border-black">
                         <img src={lineImg} alt="line-img" className="absolute max-[601px]:!h-[1820px] max-[801px]:h-[1650px]  max-[761px]:!h-[1380px] top-[99px] max-md:top-16 max-sm:top-10 left-1/2 max-lg:left-10 h-[1380px] max-[768px]:!h-[1300px] max-[601px]:!left-[6.5%] max-[601px]:max-h-[unset] lg:-translate-x-1/2" />
                         <div className="max-w-[495px] max-[1141px]:max-w-[450px] max-lg:max-w-[unset] w-full relative lg:ml-auto" >
